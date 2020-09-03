@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
+
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+
+  <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
+
+  <style>
+    body {
+      margin: 0;
+      background-color:  #042331;
+    }
+
+    .btn {
+      background-color: #133c52;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      font-style: bold;
+      margin: 3px 2px;
+      cursor: pointer;
+    }
+
+  </style>
+  <link rel="shortcut icon" href="favicon.ico">
+
+</head>
+
+<body>
+  <h1 style="text-align: center; color: white"> Stand Together By Being Apart
+    <button id="btn" class="btn" onclick="document.location = './House/house.html'">Be Together</button>
+  </h1>
+  <div id="mapid" style="height: 100%; width: 100%; background-color: white;">
+    <canvas></canvas>
+  </div>
+
+</body>
+<script type="text/javascript" src="canvas.bundle.js"></script>
+
+</html>

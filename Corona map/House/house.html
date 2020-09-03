@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>house</title>
+        <link rel="stylesheet" href="house.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script defer src="house.js"></script>
+    </head>
+
+        <body>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fas fa-bars" id="btn"></i>
+                <i class="fas fa-times" id="cancel"></i>
+            </label>
+
+            <div class="sidebar">
+                <header>Welcome</header>
+                <p>For each person who moves in, a light will be turned on <br> <br> Make sure that your friends stay apart, so we in unity can light up this home
+                </p> 
+                <div class="press">
+                    <p>Psst! <br> If someone moved in, tap on their window</p>
+                </div>
+            </div>
+
+            <section>
+                <div id="parent">
+                    <div class="images"></div>
+                        <img class="img1" src="./assets/light.png" width="100px">
+                        <img class="img3" src="./assets/light2.jpg" width="100px">
+                        <img class= "img2" src="./assets/watercolor.png" width="400px">  
+                    </div>
+                    <div class="header">
+                        <h2>STAY APART TO COME TOGETHER</h2>
+                    </div>
+                </div>
+            </section>
+            <button class="window" data-modal-target="#modal">Open</button>
+            <div class="modal" id="modal">
+                <div class="modal-header">
+                    <div class="title">Susan</div>
+                    <button data-close-button class="close-button">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <textarea placeholder="Chat with Susan" cols="33" rows="10"></textarea>
+                </div>
+            </div>
+            <div id="overlay"></div>
+        </body>
+</html>
