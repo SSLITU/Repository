@@ -1,0 +1,39 @@
+/* Definerer farve fpr H1
+Jeg kan teknisk set definere alle ting herinde! 
+*/ 
+h1{
+    color: white;
+    background-color: black
+    text-align center
+}
+
+
+
+p{
+    color: white
+}
+
+h2{
+    color: black
+    text-align center
+    
+}
+
+button{
+    background-color: rgb(240, 119, 38);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    position: absolute;
+
+}
+button:hover{
+    background-color: rgb(235, 130, 33);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

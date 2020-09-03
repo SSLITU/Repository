@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+
+<html>
+<body>
+
+<button id="startButton">start</button>
+<svg id="canvas">
+            <text id="text" x="50" y="20%" fill="red">Not started jet</text>
+            <rect id="background" style="fill:rgb(9, 87, 44);"/>
+            <text x="50%" y="25%" dominant-baseline="middle" text-anchor="middle" fill="White">Do you like studying at ITU?</text>
+            <circle cx="20%" cy="20%" id="ball" fill="white" stroke="black" stroke-width="10" />
+            <circle cx="50%" cy="50%" r="54.8" stroke="#efe" stroke-width="3" fill="none"/>
+            <circle cx="50%" cy="50%" r="2" stroke="#efe" stroke-width="3" fill="none"/>
+            <rect width="0", height="0", id="goalYes" stroke="#efe" stroke-width="3" fill="none"/>
+            <rect width="0", height="0", id="goalNo" stroke="#efe" stroke-width="3" fill="none"/>
+            <line x1="0%" y1="50%" x2="100%" y2="50%" stroke="#efe" stroke-width="3" fill="none" />
+            <text x="50%" y="90%" dominant-baseline="middle" text-anchor="middle" fill="White">No!</text>
+            <text x="50%" y="10%" dominant-baseline="middle" text-anchor="middle" fill="White">Yes!</text>
+            
+        </svg>
+
+
+<script src = "mqttws31.js"></script>
+<script src = "Survey.mqtt.js"></script>
+</body>
+</html>
